@@ -1,9 +1,13 @@
 <mat-toolbar color="primary" class="navbar">
   <span class="logo">Blue Squad</span>
   <span class="spacer"></span>
-  <nav>
+
+  <nav class="desktop-menu">
     <a mat-button routerLink="/">Início</a>
-    <a mat-button routerLink="/#services">Serviços</a>
-    <a mat-button routerLink="/#contact">Contato</a>
+    <a mat-button>Serviços</a>
+    <a mat-button>Contato</a>
   </nav>
+  <button mat-icon-button class="menu-button" (click)="menuToggle.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
 </mat-toolbar>

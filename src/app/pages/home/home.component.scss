@@ -1,0 +1,15 @@
+.sidenav-container {
+  height: 100vh; // Agora cobre toda a aplicação
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav {
+  width: 250px;
+}
+
+.mat-sidenav-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
