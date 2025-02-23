@@ -1,0 +1,9 @@
+<section class="features">
+  <h2>Nossos Serviços</h2>
+  <div class="features-grid">
+    <mat-card class="feature-card" *ngFor="let feature of features">
+      <mat-card-title>{{ feature.title }}</mat-card-title>
+      <mat-card-content>{{ feature.description }}</mat-card-content>
+    </mat-card>
+  </div>
+</section>
