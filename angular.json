@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "/blue-squad-landing/",
+            "outputPath": "dist/blue-squad-landing",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
