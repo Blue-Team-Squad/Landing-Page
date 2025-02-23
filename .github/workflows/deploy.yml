@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Build do projeto
-        run: npm run build -- --configuration production --base-href=/blue-squad-landing/
+        run: npm run build -- --configuration production --base-href=/Landing-Page/
 
       - name: Deploy para GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
